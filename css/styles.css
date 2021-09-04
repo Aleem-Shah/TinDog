@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Scada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+#title{
+    background-color: #ff4c68;
+}
+
+#heading-text{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    /* margin-left: 25%;
+    margin-top: 15%; */
+    color: white;
+    
+   
+}
+/* .btn1{
+    margin-left: 25%;
+    margin-right: 2% ;
+
+} */
+#title{
+    padding:  3% 15% 20% ;
+   
+ }
+/* .navbar{
+    margin-bottom: 30px;
+} */
+.title{
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar-brand{
+    font-family: 'Azeret Mono', monospace;
+    
+}
+.iphone-6{
+    width: 350px;
+
+    transform: rotate(25deg);
+  
+    position: absolute;
+  
+    margin: 1% 0 0 3%;
+    
+}
+
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    padding: 7% 20%;
+
+  background-color: white;
+
+  position: relative;
+ 
+    
+    
+}
+.icons-middle{
+    color: #ef8172;
+}
+h3{
+    font-family: 'Scada', sans-serif;
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+    line-height: 1;
+    font-size: 1.3rem;
+}
+.icons-middle:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-card{
+    padding: 3% 2%;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    height: 300px;
+    padding: 3% 20% auto 20%;
+
+}
+.cta-text{
+    color:#fff;
+     line-height: 3em;
+    
+    font-size: 40px;
+   
+}
+.cta-text2{
+    color:#fff;
+    text-align: center;
+    
+    font-size: 40px;
+   
+}
+.btn-cta{
+    margin: 20px;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 100px;
+    height: 100px;
+  
+}
+.social-icons{
+    color: #000000;
+    margin: 5px; 
+   text-decoration: none;
+   line-height: 2em;
+   height: 10em;
+ 
+}
+.social-icons:hover{
+    color: #8f8f8f;
+}
+
+@media (max-width:990px){
+    .iphone-6{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+
+}
